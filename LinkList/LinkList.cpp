@@ -31,7 +31,13 @@ void addNode() {
         START = nodeBaru;
         return;
     }
+
+    Node* previous = START;
+    Node* current = START;
 }
+
+
+
 int main()
 {
     std::cout << "Hello World!\n";
